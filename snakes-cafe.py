@@ -24,11 +24,12 @@ def orders():
     count = 0
     order = input(">")
     while order in dana:
-        if order =='quit':
-            break
-        count = count+1
+        count = count + 1
         print(f'** {count} order of {order} have been added to your meal **')
         order = input(">")
+        if order =='quit':
+            break
+
 
 
 
