@@ -6,5 +6,5 @@
 ## Setup
 I used venv . 
 
-**How to initialize/run your application (where applicable)** </br>
+**How to initialize/run your application** </br>
  python snakes-cafe.py
